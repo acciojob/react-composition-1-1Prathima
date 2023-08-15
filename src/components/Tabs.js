@@ -9,6 +9,7 @@ const Tabs = ({tabs}) => {
     }
 
     return(
+
         <div>
             <ul>
                 {
@@ -19,6 +20,7 @@ const Tabs = ({tabs}) => {
             </ul>
             {<p>{content}</p>}
         </div>
+        
     )
 }
 
